@@ -1,3 +1,4 @@
+"use strict";
 // BUDGET CONTROLLER
 var budgetController = (function() {
   
@@ -249,7 +250,7 @@ var UIController = (function() {
     },
     
     clearFields: function() {
-      var fields, fieldArr;
+      var fields, fieldsArr;
       
       fields = document.querySelectorAll(DOMstrings.inputDescription + ', ' + DOMstrings.inputValue);
       
